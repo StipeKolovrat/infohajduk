@@ -7,6 +7,7 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
+include: [img]
 permalink: /:title ## disables post output
 timezone: null
 lsi: false
@@ -20,7 +21,6 @@ keywords:    "Hajduk, Torcida, Hajduk Split,  Split, Utakmica, derbi, hajducke p
 description: "Hajduk: Nesto informacija o nasem Hajduku"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-include: 	 "img/wallpaper8.jpg"
 ##google_analytics_key: UA-56627822-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
